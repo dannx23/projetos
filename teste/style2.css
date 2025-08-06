@@ -51,8 +51,23 @@ nav > a{
     
 }
 
+nav{
+    background-color: var(--cor1);
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 17px;
+    color: white;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    
+}
+
 nav a:hover {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     padding: 7px;
     transition-duration: 0.5s;
     
@@ -64,8 +79,17 @@ main{
     max-width:900px;
     margin: auto;
     padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.411);
 }
 ul{
     padding: 15px;
     margin: 10px;
+}
+img{
+   padding: 10px;
+   max-height: 140px; 
+}
+
+mark{
+    background-color: #00aabd80;
 }
