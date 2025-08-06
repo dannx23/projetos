@@ -33,14 +33,15 @@ background-color: var(--cor4);
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor1));
-    min-width: 300px;
-    padding: 30px;
+    min-width: 150px;
+    padding-top: 40px;
     text-align: center;
 }
 
 header > h1{
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 20px;
     font-family:'sab';
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384);
 }
@@ -68,8 +69,9 @@ nav a:hover {
 main {
     background-color: rgb(218, 215, 215);
     padding: 32px;
-    min-width: 400px;
-    max-width: 900px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 30px;
     margin: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.329);
 }
