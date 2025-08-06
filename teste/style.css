@@ -52,7 +52,7 @@ nav{
 
 nav > a{
     text-decoration: none;
-    margin: 5px;
+    margin: 7px;
     font-size: 17px;
     color: white;
     background-color: var(--cor1);
