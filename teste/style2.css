@@ -1,0 +1,71 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: titulo;
+    src: url(fontes/OpenRing-Regular.ttf) ;
+}
+@font-face {
+    font-family: sub;
+    src: url(fontes/MetrimLetter-Regular.otf);
+
+}
+@font-face {
+    font-family: sab;
+    src: url(fontes/Maximum\ Voltage.otf);
+}
+
+:root{
+    --cor1: #026E81;
+    --cor2: #1784b3;
+    --cor3: #00ABBD;
+    --cor4: #A1C7E0;
+    --cor5: #FF9933;
+
+}
+
+body{
+    background-color: #A1C7E0;
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor2));
+    padding: 17px;
+    text-align: center;
+    font-family: 'sab';
+}
+nav{
+     background-color: var(--cor2);
+     text-align: center;
+}
+nav > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background-color: var(--cor2);
+    border-radius: 5px;
+    
+}
+
+nav a:hover {
+    background-color: var(--cor4);
+    padding: 7px;
+    transition-duration: 0.5s;
+    
+}
+
+main{
+    background-color: #facfa4ab;
+    min-width: 200px;
+    max-width:900px;
+    margin: auto;
+    padding: 10px;
+}
+ul{
+    padding: 15px;
+    margin: 10px;
+}
