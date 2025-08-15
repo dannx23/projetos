@@ -64,7 +64,6 @@ nav a:hover {
     background-color: var(--cor3);
     padding: 7px;
     transition-duration: 0.5s;
-    
 }
 main {
     background-color: rgb(218, 215, 215);
